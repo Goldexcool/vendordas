@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+#root,
+#docs-root {
+  --color1: #590209;
+  --color3: #FFF4EA;
+  --color2: #D9A171;
+  --white: #ffffff;
+  --white-bg: #F2F2F2;
+  --aside: #F8F8F8;
+  --aside111: #a1a1a1;
+  --black1: #000000;
+  --problack: #0D0D0D;
+  --black2: #1a1a1a;
+  --black3: #3E3E3E;
+  --confirmed: #31BC00;
+  --confi-bg: #E0FCD7;
+  --cancelled: #FF0000;
+  --cancelled-bg: #FCE2E2;
+  --pending: #FFA800;
+  --pending-bg: #FCF3E3;
+  --gradim: #642328;
+  
+}
+::-webkit-scrollbar {
+  width: 0.4rem;   
+  height: 0.4rem;  
+  background: hsl(0, 0%, 93%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #590209;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
