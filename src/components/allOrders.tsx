@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Orders from '../data/order'
-import prev from "../images/prevvv.svg";
+// import prev from "../images/";
 import next from "../Images/Vector (21).svg";
 import { useRouter } from 'next/navigation';
 
@@ -117,7 +117,7 @@ const Order = () => {
                 <h1 className="text-sm font-medium text-color1">Showing 1 page of 5 entries</h1>
                 <div className="flex gap-4">
                     <div className="flex items-center gap-3 cursor-pointer">
-                        <Image src={prev} alt="Previous" width={12} height={12} />
+                        {/* <Image src={prev} alt="Previous" width={12} height={12} /> */}
                         <h1 className="text-sm font-bold text-color1">Previous</h1>
                     </div>
                     <div className="flex gap-2 text-sm font-bold">
