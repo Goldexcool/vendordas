@@ -1,4 +1,4 @@
-import nikeshoe from '../images/Vector (22).svg';
+import nikeshoe from '../Images/nikeshoe.svg';
 import statement from '../Images/statement.svg'
 
 const Orders = [

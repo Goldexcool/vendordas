@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Orders from '../data/order'
-import prev from "../images/Vector (20).svg";
+import prev from "../images/prev.svg";
 import next from "../Images/Vector (21).svg";
 import { useRouter } from 'next/navigation';
 
